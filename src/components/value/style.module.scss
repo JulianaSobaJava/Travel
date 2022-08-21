@@ -1,0 +1,67 @@
+section {
+    .box_container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+
+        .box {
+            flex: 1 1 20rem;
+            border-radius: 0.5rem;
+            overflow: hidden;
+            box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+
+            img {
+                height: 20rem;
+                width: 100%;
+                object-fit: cover;
+
+                &:hover{
+                    transform: scale(1.1);
+                    cursor: pointer;
+                }
+            }
+
+            .content {
+                padding: 2rem;
+
+                div svg{
+font-size: 1rem;
+    color: var(--orange);
+                }
+
+                h3 {
+                    font-size: 2rem;
+                    color: #333;
+
+                    svg {
+                        color: var(--orange);
+                    }
+                }
+                p {
+                    font-size: 1rem;
+                    color: #666;
+                    padding: 1rem 0;
+                    overflow: hidden; /* remove o estouro do elemento */
+                    text-overflow: ellipsis; /* adiciona “...” no final */
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2; /* quantidade de linhas */
+                    -webkit-box-orient: vertical; /* conteúdo será apresentado verticalmente */
+                }
+
+                .price {
+                    font-size: 1.5rem;
+                    color: #333;
+                    padding-top: 1rem;
+
+                    span {
+                        color: #666;
+                        font-size: 1rem;
+                        text-decoration: line-through;
+                    }
+                }
+
+            }
+        }
+    }
+}
+

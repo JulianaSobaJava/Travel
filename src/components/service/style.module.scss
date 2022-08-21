@@ -1,0 +1,33 @@
+.box_container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+
+    .box {
+        flex: 1 1 30rem;
+        border-radius: 0.5rem;
+        padding: 1rem;
+        text-align: center;
+
+        &:hover {
+            box-shadow: 3rem 3rem 4rem rgba(0, 0, 0, 0.1);
+        }
+
+        svg {
+            padding: 1rem;
+            font-size: 4rem;
+            color: var(--orange);
+        }
+
+        h3 {
+            font-size: 2rem;
+            color: #333;
+        }
+    }
+
+    p {
+        font-size: 1rem;
+        color: #666;
+        padding: 1rem 0;
+    }
+}

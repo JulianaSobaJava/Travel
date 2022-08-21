@@ -1,0 +1,54 @@
+footer {
+    background: rgb(73, 73, 73);
+    padding: 0 4rem;
+
+    .box_container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.2rem;
+
+
+        .box {
+            padding: .2rem 0;
+            flex: 1 1 10rem;
+
+            h3 {
+                font-size: 1.5rem;
+                padding: 0.7rem 0;
+                color: #fff;
+            }
+
+            p {
+                font-size: 1rem;
+                padding: 0.7rem 0;
+                color: #eee;
+            }
+
+            a {
+                display: block;
+                font-size: 1rem;
+                padding: 0.7rem 0;
+                color: #eee;
+
+                &:hover {
+                    color: var(--orange);
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+          .credit{
+            text-align: center;
+            padding: 2rem 1rem;
+            margin-top: 1rem;
+            font-size: 1rem;
+            font-weight: normal;
+            color: #fff;
+            border-top: 0.1rem solid rgba(255, 255, 255, 0.2);
+
+            span {
+                color: var(--orange);
+            }
+        }
+}

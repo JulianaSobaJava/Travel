@@ -1,0 +1,36 @@
+section {
+    .box {
+        padding: 2rem;
+        text-align: center;
+        box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+        border-radius: 0.5rem;
+
+        img {
+            height: 13rem;
+            width: 13rem;
+            object-fit: cover;
+            margin-bottom: 1rem;
+        }
+
+        h3 {
+            color: #333;
+            font-size: 1.5rem;
+        }
+
+        p {
+            color: #666;
+            font-size: 1rem;
+            padding: 1rem 0;
+            overflow: hidden; /* remove o estouro do elemento */
+            text-overflow: ellipsis; /* adiciona “...” no final */
+            display: -webkit-box;
+            -webkit-line-clamp: 3; /* quantidade de linhas */
+            -webkit-box-orient: vertical; /* conteúdo será apresentado verticalmente */
+        }
+
+        svg {
+            color: var(--orange);
+            font-size: 1rem;
+        }
+    }
+}

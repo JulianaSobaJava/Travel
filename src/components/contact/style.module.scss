@@ -1,0 +1,49 @@
+section {
+    background-color: #f1f1f1;
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+        align-items: center;
+
+        .image {
+            flex: 1 1 20rem;
+
+            img {
+                width: 80%;
+            }
+        }
+
+        form {
+            flex: 1 1 30rem;
+            padding: 2rem;
+            box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+            border-radius: 0.5rem;
+
+            .inputBox {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+
+                input,
+                textarea {
+                    width: 49%;
+                    margin: 1rem 0;
+                    padding: 0.8rem;
+                    font-size: 1.2rem;
+                    color: #333;
+                    background: #f7f7f7;
+                    text-transform: none;
+                }
+            }
+
+            textarea {
+                height: 15rem;
+                resize: none;
+                width: 100%;
+                padding: 0.8rem;
+                font-size: 1.2rem;
+            }
+        }
+    }
+}
