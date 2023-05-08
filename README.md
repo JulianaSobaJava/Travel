@@ -15,6 +15,8 @@ Ela é uma SPA(Single Page Aplication), divididas por sections. Por ser um proje
 <li>Swipe (Lib para criar carrosséis)</li>
 </ul>
 
+<p>You can find the website here: <a href="https://jstravelapp.netlify.app/#gallery">Web site Travel App</a></p>
+
 <h2>Home</h2>
 <img src='https://github.com/JulianaSobaJava/Travel/blob/main/public/images/Captura%20de%20tela%20de%202022-08-22%2000-44-21.png' height='300px' alt='Home'/>
 
@@ -22,4 +24,4 @@ Ela é uma SPA(Single Page Aplication), divididas por sections. Por ser um proje
 <h2>Packages or Place to go</h2>
 <img src='https://github.com/JulianaSobaJava/Travel/blob/main/public/images/Captura%20de%20tela%20de%202022-08-22%2000-44-32.png' height='300px' alt='Home'/>
 
-<p>You can find the website here: <a href="https://jstravelapp.netlify.app/#gallery">Web site Travel App</a></p>
+
